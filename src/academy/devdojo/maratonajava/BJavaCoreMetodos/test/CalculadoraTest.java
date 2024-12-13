@@ -10,5 +10,6 @@ public class CalculadoraTest {
         calculadora.multiplicaDoisNumeros(5,5);
         double result = calculadora.divideDoisNumeros(10,0);
         System.out.println(result);
+         calculadora.divideDoisNumerosSemRetorno(50,5);
     }
 }
