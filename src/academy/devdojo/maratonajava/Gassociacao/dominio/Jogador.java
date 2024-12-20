@@ -15,6 +15,11 @@ public class Jogador {
         this.nome = nome;
     }
 
+    public Jogador(String nome, Time time) {
+        this.nome = nome;
+        this.time = time;
+    }
+
     public Time getTime() {
         return time;
     }
