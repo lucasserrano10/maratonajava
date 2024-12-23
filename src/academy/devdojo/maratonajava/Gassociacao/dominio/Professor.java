@@ -15,7 +15,7 @@ public class Professor {
         for(Seminario seminario: this.seminarios){
             System.out.println(seminario.getTitulo());
             System.out.println(seminario.getEndereco().getEndereco());
-            if(seminario.getAlunos() == null || seminario.getAlunos().length ==0){
+            if(seminario.getAlunos() == null || seminario.getAlunos().length == 0){
                 continue;
             };
             System.out.println("## Alunos ##");
