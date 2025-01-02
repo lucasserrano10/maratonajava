@@ -20,7 +20,7 @@ package academy.devdojo.maratonajava.Kenum.dominio;
         public String toString() {
             return "Cliente{" +
                     "nome='" + nome + '\'' +
-                    ", tipoCliente=" + tipoCliente +
+                    ", tipoCliente=" + tipoCliente.getNomeRelatorio() +
                     ", tipoClienteInt=" + tipoCliente.VALOR +
                     ", tipoPagamento=" + tipoPagamento +
                     '}';

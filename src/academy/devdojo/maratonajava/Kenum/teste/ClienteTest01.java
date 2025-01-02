@@ -11,6 +11,8 @@ public class ClienteTest01 {
         System.out.println(cliente1);
         System.out.println(cliente2);
         System.out.println(cliente3);
+        TipoCliente tipoCliente = TipoCliente.tipoClientePorNomeRelatorio("Pessoa Física");
+        System.out.println(tipoCliente);
 
         // Porém quando nao somos apenas nos trabalhando nos dados, com isso é gerado inconsistência
     }
