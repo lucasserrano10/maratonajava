@@ -31,4 +31,8 @@ public class Consumidor {
     public int hashCode() {
         return Objects.hashCode(id);
     }
+
+    public String getNome() {
+        return nome;
+    }
 }
