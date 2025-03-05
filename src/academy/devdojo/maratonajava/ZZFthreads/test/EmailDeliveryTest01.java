@@ -15,7 +15,12 @@ public class EmailDeliveryTest01 {
         quebas.start();
 
         while (true){
-            JOptionPane.showInputDialog("Entre com seu email: ");
+            String email = JOptionPane.showInputDialog("Entre com seu email: ");
+            if(email == null || email.isEmpty()){
+                members.close();
+                break;
+            }
+            members.addMemberEmails(email);
         }
 
     }
