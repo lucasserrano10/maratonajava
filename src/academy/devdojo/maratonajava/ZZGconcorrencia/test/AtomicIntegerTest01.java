@@ -5,6 +5,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 class Counter {
     private int count;
     private AtomicInteger atomicInteger = new AtomicInteger();
+
     void increment(){
         count++;
         atomicInteger.incrementAndGet();
@@ -17,7 +18,7 @@ class Counter {
     public AtomicInteger getAtomicInteger() {
         return atomicInteger;
     }
-}fiap
+}
 
 public class AtomicIntegerTest01 {
     public static void main(String[] args) throws InterruptedException {
